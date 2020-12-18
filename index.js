@@ -18,7 +18,22 @@ Do the following:
    HINT: no function required
 */
 
+var votingAge = 31;
 
+if( votingAge >= 18)
+{
+  console.log("yes you can vote");
+}
+
+var coinFlip=Math.round(Math.random());
+
+if (coinFlip === 1){
+  console.log("heads");
+}
+
+if (coinFlip === 0){
+  console.log("tails")
+}
 
 /*
 Task 1b - Values
